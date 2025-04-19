@@ -1,7 +1,7 @@
 
 #importing libraries
-import numpy as np
-import pandas as pd
+import numpy as np # type: ignore
+import pandas as pd # type: ignore
 
 my_series=pd.Series( index=['a','b','c','d'],
                     data=[1,2,3,4] )#Data #indexes
